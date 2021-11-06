@@ -1,0 +1,35 @@
+$first: #281791;
+$second: #4107E0;
+$third: #4E0C99;
+
+
+html {
+    overflow-y: hidden;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	min-width: 800px;
+	min-height: 600px;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#root-error {
+    height: 100vh;
+    min-height: 464px;
+    overflow: hidden;
+}

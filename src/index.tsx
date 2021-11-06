@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import {
   BrowserRouter, Switch, Route
 } from 'react-router-dom';
+import Home from './components/home';
 
 export default function App():JSX.Element {
   return <>
@@ -10,7 +11,7 @@ export default function App():JSX.Element {
       <BrowserRouter>
           <Switch>
             <Route path='/'>
-                <p>Questo sito avrà solo una route</p>
+              <Home />
             </Route> 
         </Switch>
       </BrowserRouter>

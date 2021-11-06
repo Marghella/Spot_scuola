@@ -1,0 +1,17 @@
+@import '../global/global.scss';
+
+.all {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
