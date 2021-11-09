@@ -1,0 +1,30 @@
+.questionform {
+    background-color: blue;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.question {
+    width: 100%;
+    background-color: red;
+    display: flex; 
+    justify-content: left;
+    align-items: center;
+    padding: 20px;
+    span {
+        font-size: 1.5rem;
+    }
+}
+
+.answer {
+    width: 100%;
+    background-color: black;
+}
+
+.textarea {
+    resize: none;
+
+}

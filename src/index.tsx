@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import {
   BrowserRouter, Switch, Route
 } from 'react-router-dom';
-import Home from './components/home';
+import Home from './components/home/home';
 
 export default function App():JSX.Element {
   return <>
