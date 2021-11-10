@@ -1,4 +1,4 @@
 {
-    "domande": ["Mario è bello?", "Franco è brutto?"],
+    "domande": ["Domanda 1?", "Domanda 2?"],
     "risposte": [["No", "Si", "forse"], ["No", "Si", "forse"]]
 }

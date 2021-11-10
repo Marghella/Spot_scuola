@@ -1,15 +1,18 @@
+@import '../../global/global.scss';
 .questionform {
-    background-color: blue;
-    height: 100px;
+    height: auto;
+    width: 100%;
     display: flex;
     justify-content: center;
     padding: 20px;
     flex-wrap: wrap;
+    border-radius: 10px;
+    background-color: $second;
+    margin: 30px 10px 30px 10px;
 }
 
 .question {
     width: 100%;
-    background-color: red;
     display: flex; 
     justify-content: left;
     align-items: center;

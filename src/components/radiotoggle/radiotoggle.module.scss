@@ -1,0 +1,47 @@
+@import '../../global/global.scss';
+
+.radiotoggle {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 3px;
+  gap: 10px;
+  width: auto;
+}
+
+@mixin CenterFlex() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle_container {
+  width: 30px;
+  height: 30px;
+  @include CenterFlex();
+
+  .circle {
+    width: 26px;
+    height: 26px;
+    background-color: white;
+    border-radius: 50%;
+    @include CenterFlex();
+    .circle_between {
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      background-color: black;
+      @include CenterFlex();
+      .circle_inside {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+      }  
+      .circle_inside.burple {
+        background-color: $second;
+      }
+    }
+
+  }
+}

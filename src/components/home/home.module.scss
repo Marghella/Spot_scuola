@@ -1,5 +1,10 @@
 @import '../../global/global.scss';
 
+.veryall {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .all {
     width: 100vw;
     height: 100vh;
@@ -15,3 +20,28 @@
     align-items: center;
 }
 
+.qsection {
+    background-color: $first;
+    border-radius: 10px;
+    height: 100%;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 0 10px 20px 10px;
+
+}
+
+.footer {
+    display: block;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+} 
+
+.wave {
+    width: 100%;
+}
